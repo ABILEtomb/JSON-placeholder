@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;600;700;800&family=Roboto:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  position: absolute;
+  transform: translateX(10rem);
+}
+.pagination{
+  display:flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  font-size: 1.2rem;
+  gap: 10px;
+}
+.page-num{
+  cursor: pointer;
+  border-radius: 0.3rem;
+ padding: 0.4rem 0.8rem;
+}
+
+.page-num:hover{
+  background-color: #e0e0e0;
+}
+.active{
+  background-color: #e0e0e0;
+}
+form{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap: 1rem;
+
+}
+form button{
+  width:7rem;
+  height:2.5rem;
+  background-color: #034f84;
+  margin:  1rem 0;
+  border:none
+
+}
+.link{
+  text-decoration: none;
+}
+.albums,.comments,.photos,.posts,.users,.todos{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
