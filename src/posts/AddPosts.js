@@ -7,7 +7,7 @@ import {PostsContext} from "./PostsContext";
 
 const AddPosts= () => {
 const [open, setopen] = useState(false);
-const [data,setData ] = useContext(PostsContext);
+const [setData ] = useContext(PostsContext);
 const [title, settitle] = useState([""]);
 const [body, setbody] = useState([""]);
 
