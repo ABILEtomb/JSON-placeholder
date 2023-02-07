@@ -50,13 +50,13 @@ const currentItems = data.slice(itemOffset, endOffset);
         {
   currentItems.map(datas => (
 <Paper key={datas.id} elevation={10} sx={{
-    display:{
-              xs: "flex",
-              sm: "flex",
-              md:"grid",
-              lg: "grid",
-              xl:"grid"
-            },
+    width:{
+      xs: "90%",
+      sm: "300px",
+      md: "300px",
+      lg: "300px",
+      xl: "300px"
+    },
     gridTemplateColumns:"1fr 1fr",
     margin: "1rem 0",
     flexDirection:'column',
@@ -69,13 +69,6 @@ const currentItems = data.slice(itemOffset, endOffset);
   <h5>{datas.title}</h5>
 
   <Box sx={{  
-      width:{
-      xs: "90%",
-      sm: "300px",
-      md: "300px",
-      lg: "300px",
-      xl: "300px"
-    },
     display: "flex",
     flexDirection: "row",
     justifyContent:"space-between",
