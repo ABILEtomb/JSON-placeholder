@@ -7,7 +7,7 @@ import {AlbumContext} from "./AlbumContext";
 
 const Create = () => {
 const [open, setopen] = useState(false);
-const [data,setData ] = useContext(AlbumContext);
+const [setData ] = useContext(AlbumContext);
 const [Album, setAlbum] = useState([""]);
 
 
