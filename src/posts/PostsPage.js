@@ -58,15 +58,25 @@ const [data] = useContext(PostsContext);
       lg: "300px",
       xl: "300px"
     },
-    display: "flex",
-    flexDirection: "row",
-    justifyContent:"space-between",
-    padding:"1rem 1rem "
+      margin: "1rem 0",
+    display:"flex",
+    flexDirection:'column',
+    alignItems:"center",
+    padding:"1rem 1rem",
+    gap:"1rem",
+    textAlign: "center"
+  
 }}>
     <p>{datas.id}</p>
   <h5>{datas.title}</h5>
   <p>{datas.body}</p>
-  <Box s>
+  <Box sx={{
+    width:"100%"
+      display: "flex",
+    flexDirection: "row",
+    justifyContent:"space-between",
+    padding:"1rem 1rem "
+  }}>
   <IconButton>
   <EditIcon color='primary'/>
   </IconButton>
