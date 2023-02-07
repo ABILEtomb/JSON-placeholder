@@ -50,14 +50,7 @@ const [data] = useContext(PostsContext);
         }}>
   {
    currentItems.map(datas => (
-<Paper key={datas.id}  elevation={10} sx={{
-    
-  
-}}>
-    <p>{datas.id}</p>
-  <h5>{datas.title}</h5>
-  <p>{datas.body}</p>
-  <Box sx={{  
+<Paper key={datas.id}  elevation={10} sx={{  
     width:{
       xs: "90%",
       sm: "300px",
@@ -68,7 +61,12 @@ const [data] = useContext(PostsContext);
     display: "flex",
     flexDirection: "row",
     justifyContent:"space-between",
-    padding:"1rem 1rem "}}>
+    padding:"1rem 1rem "
+}}>
+    <p>{datas.id}</p>
+  <h5>{datas.title}</h5>
+  <p>{datas.body}</p>
+  <Box s>
   <IconButton>
   <EditIcon color='primary'/>
   </IconButton>
