@@ -7,7 +7,7 @@ import {CommentContext} from "./CommentContext";
 
 const AddCommment= () => {
 const [open, setopen] = useState(false);
-const [data,setData ] = useContext(CommentContext);
+const [setData ] = useContext(CommentContext);
 const [title, settitle] = useState([""]);
 const [body, setbody] = useState([""]);
 
