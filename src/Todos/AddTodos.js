@@ -7,7 +7,7 @@ import {TodosContext} from "./TodosContext";
 
 const AddTodos = () => {
 const [open, setopen] = useState(false);
-const [data,setData ] = useContext(TodosContext);
+const [setData ] = useContext(TodosContext);
 const [title, settitle] = useState([""]);
 
 
