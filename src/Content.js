@@ -25,7 +25,7 @@ const Content = () => {
         }
       }>
 
-    <Typography variant="h4" padding="1rem 0">Json Placeholder:React</Typography>
+    <Typography variant="h4" padding="1rem 0" text-align="center">Json Placeholder:React</Typography>
 
 <Link to="/Albums" className="link">
         <Paper elevation={10}
