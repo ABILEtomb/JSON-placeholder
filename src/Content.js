@@ -28,7 +28,7 @@ const Content = () => {
     <Typography variant="h4" padding="1rem 0">Json Placeholder:React</Typography>
 
 <Link to="/Albums" className="link">
-        <Paper variant="outlined"  elevation={10}
+        <Paper elevation={10}
         sx={
         {
             width:"300px",
@@ -50,7 +50,7 @@ const Content = () => {
         </Paper>
 </Link>
         <Link to={'/Comment'} className="link">
-        <Paper variant="outlined"  elevation={10}
+        <Paper elevation={10}
         sx={
         {
             width:"300px",
@@ -74,7 +74,7 @@ const Content = () => {
         </Paper>
         </Link>
         <Link to="/Photos" className="link">
-        <Paper variant="outlined"  elevation={10}
+        <Paper elevation={10}
         sx={
         {
             width:"300px",
@@ -98,7 +98,7 @@ const Content = () => {
         </Link>
 
 <Link to={'/Posts'} className="link">
-        <Paper variant="outlined"  elevation={10}
+        <Paper elevation={10}
         sx={
         {
             width:"300px",
@@ -120,7 +120,7 @@ writing clears the mind
         </Paper>
 </Link>
 <Link to ="/Todos" className="link">
-        <Paper variant="outlined"  elevation={10}
+        <Paper elevation={10}
         sx={
         {
             width:"300px",
@@ -144,7 +144,7 @@ writing clears the mind
 
 <Link to="/Users" className="link">
 
-        <Paper variant="outlined"  elevation={10}
+        <Paper elevation={10}
         sx={
         {
             width:"300px",
