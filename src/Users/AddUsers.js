@@ -7,7 +7,7 @@ import {UsersContext} from "./UsersContext";
 
 const AddUsers= () => {
 const [open, setopen] = useState(false);
-const [data,setData ] = useContext(UsersContext);
+const [setData ] = useContext(UsersContext);
 const [Name, setName] = useState([""]);
 const [userName, setuserName] = useState([""]);
 const [email, setemail] = useState([""]);
