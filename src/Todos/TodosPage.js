@@ -59,7 +59,6 @@ const currentItems = data.slice(itemOffset, endOffset);
             },
     gridTemplateColumns:"1fr 1fr",
     margin: "1rem 0",
-    display:"flex",
     flexDirection:'column',
     alignItems:"center",
     padding:"1rem 1rem",
