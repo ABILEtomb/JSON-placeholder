@@ -72,7 +72,7 @@ const [data] = useContext(AlbumContext);
 }}>
     <p>{datas.id}</p>
   <h5>{datas.title}</h5>
-  <img src={datas.url}  height="100%" width="90%"/>
+  <img src={datas.url}  alt="" height="100%" width="90%"/>
   <Box sx={{  
     width:"100%",
     display: "flex",
