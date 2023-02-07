@@ -7,7 +7,7 @@ import {PhotosContext} from "./PhotosContext";
 
 const AddPhotos= () => {
 const [open, setopen] = useState(false);
-const [data,setData ] = useContext(PhotosContext);
+const [setData ] = useContext(PhotosContext);
 const [title, settitle] = useState([""]);
 const [url, seturl] = useState([""]);
 
